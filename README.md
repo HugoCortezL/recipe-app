@@ -52,7 +52,7 @@ $ cd recipe-add
 # Instale as dependencias
 $ npm install
  
-#Inicie o serviço
+#Inicie o serviço 
 $ npm run dev
 ```
  
