@@ -14,4 +14,8 @@ export default createGlobalStyle`
         -webkit-font-smoothing: antialiased !important;
         -webkit-text-size-adjust: 100% !important;
     }
+
+    .link-not-style{
+        text-decoration: none;
+    }
 `
