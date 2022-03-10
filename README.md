@@ -32,8 +32,7 @@ Creating this project, because one of my hobbies is cooking and also to train my
  
 <h2 id="images">Images 📷</h2>
 <img src="https://github.com/HugoCortezL/recipe-app/tree/main/src/images/home.png"/>
-![Screenshot](https://github.com/HugoCortezL/recipe-app/tree/main/src/images/home.png)
-![plot](./images/recipeInfo.png)
+<img src="https://github.com/HugoCortezL/recipe-app/tree/main/src/images/recipeInfo.png"/>
 
 <h2 id="pre">Prerequisites ✏️</h2>
  
