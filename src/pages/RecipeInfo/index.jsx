@@ -1,4 +1,4 @@
-import {Container, PresentationContainer, PrepareContainer,FlexContainerIngredient, FlexContainerTips,MainContainer, TipsContainer, MetaDataContainer} from './styles'
+import {Container, PresentationContainer, PrepareContainer,ImageContainer, FlexContainerTips,MainContainer, TipsContainer, MetaDataContainer} from './styles'
 import Header from '../../components/Header'
 import IngredientItem from '../../components/IngredientItem'
 import PreparationItem from '../../components/PreparationItem'
@@ -25,6 +25,9 @@ export default function RecipeInfo() {
                     <p>Serve: <span>{recipe.serves}</span> </p>
                 </MetaDataContainer>
             </PresentationContainer>
+            <ImageContainer>
+                <img src={recipe.image} alt="" />
+            </ImageContainer>
             <MainContainer>
                 <PrepareContainer>
                     <h3>Ingerdientes:</h3>

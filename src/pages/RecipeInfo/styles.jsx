@@ -28,6 +28,15 @@ export const MetaDataContainer = styled.div`
     display: flex;
 `
 
+export const ImageContainer = styled.div`
+    width: 74%;
+    margin: 30px auto 0 auto;
+    img{
+        width: 100%;
+        height: 500px;
+    }
+`
+
 export const MainContainer = styled.div`
     width: 74%;
     display: flex;

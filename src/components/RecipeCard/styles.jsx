@@ -4,17 +4,30 @@ export const Container = styled.div`
     max-width: 200px;
     height: 200px;
     border-radius: 20px;
-    background-image: url(${({ background }) => background});
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
     cursor: pointer;
-    margin-top: 20px; 
+    margin-top: 20px;
+    img{
+        width: 200px;
+        height: 200px;
+    }
+`
+
+export const Content = styled.div`
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 `
 
 export const Info = styled.div`
+    position: absolute;
+    bottom: 0;
     width: 100%;
     height: 45%;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(143, 143, 143, 0.56) 100%);;
