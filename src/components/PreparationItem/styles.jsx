@@ -47,6 +47,7 @@ export const Container = styled.div`
     .container input:checked ~ .checkmark {
     background-color: #068932;//mudou
     box-shadow: none;
+    transition: box-shadow 1.7s, background-color 1.7s;
     }
 
     .checkmark:after {
@@ -58,6 +59,7 @@ export const Container = styled.div`
     .container input:checked ~ .label{
         color: #c3c3c3;
         text-decoration: line-through;
+        transition: color 0.7s, text-decoration 0.7s;
     }
 
     .container input:checked ~.checkmark:hover{
