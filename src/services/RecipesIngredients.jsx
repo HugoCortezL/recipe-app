@@ -96,5 +96,59 @@ export function loadRecipesIngredients(){
             text: '200g',
             ingredient: 10
         },
+        {
+            id: 17,
+            recipe: 4,
+            text: '200g',
+            ingredient: 11
+        },
+        {
+            id: 18,
+            recipe: 4,
+            text: '1 fio',
+            ingredient: 12
+        },
+        {
+            id: 19,
+            recipe: 4,
+            text: '2 colheres de sopa',
+            ingredient: 5
+        },
+        {
+            id: 20,
+            recipe: 4,
+            text: '500g',
+            ingredient: 13
+        },
+        {
+            id: 21,
+            recipe: 4,
+            text: '1/2',
+            ingredient: 9
+        },
+        {
+            id: 22,
+            recipe: 4,
+            text: '250ml',
+            ingredient: 14
+        },
+        {
+            id: 23,
+            recipe: 4,
+            text: '1.5l',
+            ingredient: 15
+        },
+        {
+            id: 24,
+            recipe: 4,
+            text: '200g',
+            ingredient: 16
+        },
+        {
+            id: 25,
+            recipe: 4,
+            text: '50g',
+            ingredient: 4
+        },
     ]
 }

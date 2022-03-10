@@ -40,5 +40,29 @@ export function loadIngredients(){
             id: 10,
             ingredient: 'castanha de caju'
         },
+        {
+            id: 11,
+            ingredient: 'presunto de parma'
+        },
+        {
+            id: 12,
+            ingredient: 'azeite'
+        },
+        {
+            id: 13,
+            ingredient: 'arroz arboreo'
+        },
+        {
+            id: 14,
+            ingredient: 'vinho branco seco'
+        },
+        {
+            id: 15,
+            ingredient: 'caldo de legume'
+        },
+        {
+            id: 16,
+            ingredient: 'queijo brie'
+        },
     ]
 }

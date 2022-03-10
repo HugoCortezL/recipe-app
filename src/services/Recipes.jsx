@@ -325,7 +325,12 @@ export function loadRecipes(){
             type: 'Trabalhosa',
             serves: '6 pessoas',
             rate: 5,
-            goodWith: [],
+            goodWith: [
+                {
+                    id: 1,
+                    recipe: 'Prato individual'
+                }
+            ],
             goodWere: [
                 {
                     id: 1,
