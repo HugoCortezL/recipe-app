@@ -28,5 +28,17 @@ export function loadIngredients(){
             id: 7,
             ingredient: 'ameixa'
         },
+        {
+            id: 8,
+            ingredient: 'frango'
+        },
+        {
+            id: 9,
+            ingredient: 'cebola'
+        },
+        {
+            id: 10,
+            ingredient: 'castanha de caju'
+        },
     ]
 }

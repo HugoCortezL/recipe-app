@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    min-width: 200px;
+    max-width: 200px;
     height: 200px;
     border-radius: 20px;
     background-image: url(${({ background }) => background});
@@ -28,6 +28,9 @@ export const Info = styled.div`
     }
     p{
         font-size: 13px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 `
 

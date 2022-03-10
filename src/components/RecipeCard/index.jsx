@@ -15,7 +15,7 @@ export default function RecipeCard({recipe}) {
                 <h4>{recipe.name}</h4>
                 <p>Tempo de preparo: {recipe.time}</p>
                 <p>Tipo: {recipe.type}</p>
-                <p>Serve: {recipe.server}</p>
+                <p>Serve: {recipe.serves}</p>
             </Info>
         </Container>
     )

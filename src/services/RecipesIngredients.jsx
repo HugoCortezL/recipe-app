@@ -66,5 +66,35 @@ export function loadRecipesIngredients(){
             text: '2 colheres de sopa',
             ingredient: 5
         },
+        {
+            id: 12,
+            recipe: 3,
+            text: '1kg',
+            ingredient: 8
+        },
+        {
+            id: 13,
+            recipe: 3,
+            text: '5 xicaras de chá',
+            ingredient: 1
+        },
+        {
+            id: 14,
+            recipe: 3,
+            text: '1',
+            ingredient: 9
+        },
+        {
+            id: 15,
+            recipe: 3,
+            text: '250g',
+            ingredient: 5
+        },
+        {
+            id: 16,
+            recipe: 3,
+            text: '200g',
+            ingredient: 10
+        },
     ]
 }
