@@ -47,7 +47,7 @@ For this project to work, you will need some tools:
 $ git clone https://github.com/HugoCortezL/recipe-add.git
  
 # Acesse a pasta
-$ cd hackerhank-clone
+$ cd recipe-add
  
 # Instale as dependencias
 $ npm install
