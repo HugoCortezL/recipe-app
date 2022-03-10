@@ -31,6 +31,7 @@ Creating this project, because one of my hobbies is cooking and also to train my
 * [ ] API to consume the database
  
 <h2 id="images">Images 📷</h2>
+<img src="https://github.com/HugoCortezL/recipe-app/tree/main/src/images/home.png"/>
 ![Screenshot](https://github.com/HugoCortezL/recipe-app/tree/main/src/images/home.png)
 ![plot](./images/recipeInfo.png)
 
