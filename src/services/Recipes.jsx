@@ -32,7 +32,7 @@ export function loadRecipes(){
             ],
             time: '30 minutos',
             type: 'Fácil',
-            server: 6,
+            serves: '6 pessoas',
             rate: 2,
             goodWith: [
                 {
@@ -67,37 +67,37 @@ export function loadRecipes(){
             goodWere: [
                 {
                     id: 1,
-                    recipe: 'Almoço aos domingos'
+                    local: 'Almoço aos domingos'
                 },
                 {
                     id: 2,
-                    recipe: 'Encontros de família'
+                    local: 'Encontros de família'
                 },
                 {
                     id: 3,
-                    recipe: 'Ocasiões especiais'
+                    local: 'Ocasiões especiais'
                 },
                 {
                     id: 4,
-                    recipe: 'Receber os amigos'
+                    local: 'Receber os amigos'
                 },
                 {
                     id: 5,
-                    recipe: 'Visitas de última hora'
+                    local: 'Visitas de última hora'
                 },
             ],
             drinksWith: [
                 {
                     id: 1,
-                    recipe: 'Vinho branco seco'
+                    drink: 'Vinho branco seco'
                 },
                 {
                     id: 2,
-                    recipe: 'Suco de uva'
+                    drink: 'Suco de uva'
                 },
                 {
                     id: 3,
-                    recipe: 'Limonada'
+                    drink: 'Limonada'
                 },
             ]
         },
@@ -125,7 +125,7 @@ export function loadRecipes(){
             ],
             time: '30 minutos',
             type: 'Fácil',
-            server: 6,
+            serves: '6 pessoas',
             rate: 2,
             goodWith: [
                 {
@@ -160,37 +160,37 @@ export function loadRecipes(){
             goodWere: [
                 {
                     id: 1,
-                    recipe: 'Almoço aos domingos'
+                    local: 'Almoço aos domingos'
                 },
                 {
                     id: 2,
-                    recipe: 'Encontros de família'
+                    local: 'Encontros de família'
                 },
                 {
                     id: 3,
-                    recipe: 'Ocasiões especiais'
+                    local: 'Ocasiões especiais'
                 },
                 {
                     id: 4,
-                    recipe: 'Receber os amigos'
+                    local: 'Receber os amigos'
                 },
                 {
                     id: 5,
-                    recipe: 'Visitas de última hora'
+                    local: 'Visitas de última hora'
                 },
             ],
             drinksWith: [
                 {
                     id: 1,
-                    recipe: 'Vinho branco seco'
+                    drink: 'Vinho branco seco'
                 },
                 {
                     id: 2,
-                    recipe: 'Suco de uva'
+                    drink: 'Suco de uva'
                 },
                 {
                     id: 3,
-                    recipe: 'Limonada'
+                    drink: 'Limonada'
                 },
             ]
         }

@@ -10,25 +10,25 @@ export function loadRecipesIngredients(){
             id: 2,
             recipe: 1,
             text: '2',
-            ingredient: 1 
+            ingredient: 2 
         },
         {
             id: 3,
             recipe: 1,
             text: '300g',
-            ingredient: 1 
+            ingredient: 3 
         },
         {
             id: 4,
             recipe: 1,
             text: '50g',
-            ingredient: 1 
+            ingredient: 4 
         },
         {
             id: 5,
             recipe: 1,
             text: '1 colher de sopa',
-            ingredient: 1 
+            ingredient: 5 
         },
         {
             id: 6,
@@ -40,31 +40,31 @@ export function loadRecipesIngredients(){
             id: 7,
             recipe: 2,
             text: '1 lata',
-            ingredient: 1 
+            ingredient: 6
         },
         {
             id: 8,
             recipe: 2,
             text: '200g',
-            ingredient: 1 
+            ingredient: 7
         },
         {
             id: 9,
             recipe: 2,
             text: '300g',
-            ingredient: 1 
+            ingredient: 3
         },
         {
             id: 10,
             recipe: 2,
             text: '50g',
-            ingredient: 1 
+            ingredient: 4
         },
         {
             id: 11,
             recipe: 2,
             text: '2 colheres de sopa',
-            ingredient: 1 
+            ingredient: 5
         },
     ]
 }

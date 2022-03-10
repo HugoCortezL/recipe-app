@@ -1,10 +1,13 @@
 import {Container, NavContainer} from './styles'
+import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
         <Container>
             <NavContainer>
-                <a href="#" className="active">Home</a>
+                <Link className='link-not-style' to={`/`} >
+                    <a href="#" className="active">Home</a>
+                </Link>
                 <span></span>
                 <a href="#">Buscar por lista</a>
                 <span></span>

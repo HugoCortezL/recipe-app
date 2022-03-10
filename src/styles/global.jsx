@@ -13,9 +13,13 @@ export default createGlobalStyle`
         font-family: "Open Sans", sans-serif;
         -webkit-font-smoothing: antialiased !important;
         -webkit-text-size-adjust: 100% !important;
+        background: linear-gradient(to bottom, #fff 0%, #f3f7f7 100%);
     }
 
     .link-not-style{
         text-decoration: none;
+        &:active{
+            color: inherit;
+        }
     }
 `
