@@ -2,20 +2,16 @@ import {Container, PresentationContainer, PrepareContainer,FlexContainerIngredie
 import Header from '../../components/Header'
 import IngredientItem from '../../components/IngredientItem'
 import PreparationItem from '../../components/PreparationItem'
+import ShowStars from '../../components/ShowStars'
 import { useParams } from "react-router-dom";
 import {getRecipeView} from '../../services/getRecipeView'
-import { AiFillStar, AiOutlineArrowRight, AiOutlineCaretRight } from 'react-icons/ai'
+import { AiOutlineCaretRight } from 'react-icons/ai'
 
 export default function RecipeInfo() {
     let params = useParams()
     params.recipeName = params.recipeName.replaceAll('-', ' ')
 
     var recipe = getRecipeView(params.recipeName)
-    
-    var stars = []
-    for(var i = 0; i < recipe.rate; i++){
-        stars.push(<AiFillStar key={i} color={'#FFD700'} size={25}/>)
-    }
 
     return (
         <Container>
@@ -23,7 +19,7 @@ export default function RecipeInfo() {
             <PresentationContainer>
                 <h1>{recipe.name}</h1>
                 <MetaDataContainer>
-                    {stars}
+                    <ShowStars length={recipe.rate}/>
                     <p>Tempo de preparo: <span> {recipe.time} </span></p>
                     <p>Tipo: <span>{recipe.type}</span> </p>
                     <p>Serve: <span>{recipe.serves}</span> </p>
