@@ -31,7 +31,7 @@ Creating this project, because one of my hobbies is cooking and also to train my
 * [ ] API to consume the database
  
 <h2 id="images">Images 📷</h2>
-![plot](./images/home.png)
+![Screenshot](./images/home.png)
 ![plot](./images/recipeInfo.png)
 
 <h2 id="pre">Prerequisites ✏️</h2>
