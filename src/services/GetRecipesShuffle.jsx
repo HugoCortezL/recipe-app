@@ -1,5 +1,8 @@
 import {loadRecipes} from './Recipes'
 
+/*
+This function can return a shuffled list or a alphabetic sort list
+*/
 
 function shuffle(arr){
     for (var a = 0; a < arr.length; a++) {
