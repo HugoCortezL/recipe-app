@@ -8,7 +8,7 @@ export const GoldStars = styled.div`
     width: ${props => props.length };
     overflow: hidden;
     white-space: nowrap;
-    z-index: 1000;
+    z-index: 100;
     position: absolute;
 `
 export const GrayStars = styled.div`
