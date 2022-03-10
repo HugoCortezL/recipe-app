@@ -2,6 +2,8 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     margin-top: 60px;
+    padding-bottom: 30px;
+    background: linear-gradient(to bottom, #fff 0%, #f3f7f7 100%);
 `
 
 export const PresentationContainer = styled.div`
@@ -29,7 +31,7 @@ export const MetaDataContainer = styled.div`
 export const MainContainer = styled.div`
     width: 74%;
     display: flex;
-    margin: 30px auto;
+    margin: 30px auto 0 auto;
     
 `
 
@@ -37,6 +39,7 @@ export const PrepareContainer = styled.div`
     width: 69.59%;
     background-color: #FFFFFF;
     padding: 10px;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.35);
     h3{
         font-size: 23px;
         
